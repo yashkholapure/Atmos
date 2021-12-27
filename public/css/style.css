@@ -74,8 +74,14 @@ color:var(--main-color);
     font-size: 1.4rem;
     border-radius: 2rem;
     box-shadow: 0 8px 6px -6px #000;
-     
+     outline: none;
     } 
+    .main_header_left button:hover{
+         
+        box-shadow: 0 8px 6px -6px var(--main-color);
+          
+        } 
+
 .main_header_right{
     height: 50rem;
     display: flex;
@@ -174,7 +180,7 @@ color:var(--main-color);
 }
 .main_lay .mid p,
 .main_lay .mid .fa{
-      font-size: 4rem;
+      font-size: 3.5rem;
       font-weight: 900;
 }
 .fa{
@@ -230,6 +236,7 @@ footer p{
     .main_header_right{
         height: auto;
         margin-top: 3rem ;
+        margin-bottom: 2rem;
     }
     .tempform{
         width: auto;

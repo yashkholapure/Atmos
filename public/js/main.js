@@ -9,7 +9,7 @@ const getinfo=async(event)=>{
     event.preventDefault();
     let cityv=cityname.value;
 if (cityv==="") {
-    city.innerText=`Plz enter city name before search`;
+    city.innerText=`Please enter city name before search`;
     hide.classList.add('data_hiden')
 
 }else{
@@ -31,7 +31,7 @@ if (cityv==="") {
     
 
 }catch{
-    city.innerText=`Plz enter proper city name`;
+    city.innerText=`Please enter proper city name`;
     hide.classList.add('data_hiden')
 
 }
