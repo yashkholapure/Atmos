@@ -50,6 +50,10 @@ body{
     color: var(--main-color);
      
 }
+
+.fa-snowflake{
+    color: var(--main-color);
+}
 .main_header_left{
     height: 50rem;
     display: flex;
@@ -244,4 +248,9 @@ footer p{
     .tempinfo{
         width: auto;
     }
+    .main_lay .mid p,
+.main_lay .mid .fa{
+      font-size: 3.3rem;
+       
+}
 }
