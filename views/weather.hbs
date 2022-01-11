@@ -4,9 +4,10 @@
     {{>headlinks}}
 </head>
 <body>
-      {{>navbar}}
+    {{>navbar}}
       
      <!-- main  header   -->
+
     <div class="container-fluid main_header">
          
         <div class="col-md-10 col-12 mx-auto">
@@ -34,11 +35,12 @@
 </div>
 </div>
          
-     
+    <!-- footer code -->
     
     <footer>
         <p>Happy journey</p>
     </footer>
+
     <script src="js/main.js"></script>
     <script>
          
@@ -55,7 +57,7 @@
             let currentTime=new Date();
               days=weekday[currentTime.getDay()];
            let day=document.getElementById('day') 
-            day.innerText=days;
+              day.innerText=days;
         };
         getCurrentDay();
     </script>

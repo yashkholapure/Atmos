@@ -27,10 +27,7 @@ if (cityv==="") {
     hide.classList.remove('data_hiden')
 
 
-    
-    
-
-}catch{
+    }catch{
     city.innerText=`Please enter proper city name`;
     hide.classList.add('data_hiden')
 
@@ -38,21 +35,6 @@ if (cityv==="") {
 }
      
 }
+
 submit.addEventListener('click',getinfo)
-
-
-
-//set map
  
-// var myLatLng={lat: 38.3460, lng: -0.4907};
-// var mapop={
-//     center:myLatLng,
-//     zoom:7,
-//     mapTypeId: google.maps.MapTypeId.ROADMAP
-// };
-
-// //creat map
-
- // var map=new google.maps.Map(document.getElementById("gmap"),mapop)
-
-//submit.addEventListener('click',getinfo)

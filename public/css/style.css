@@ -54,6 +54,9 @@ body{
 .fa-snowflake{
     color: var(--main-color);
 }
+
+/* main header */
+
 .main_header_left{
     height: 50rem;
     display: flex;
@@ -99,7 +102,7 @@ color:var(--main-color);
  }
 
   
- 
+/* temp input fields style code  */
 
 .tempform{
     width: 60%;
@@ -127,6 +130,7 @@ color:var(--main-color);
   background: #556ceb;
   color: #fff;
   font-size: 1.5rem;
+  outline: none;
 }
 .tempform input[type="submit"]:hover{
     color:#009ad8;
@@ -198,6 +202,9 @@ sup{
    visibility: hidden;
      transition: all 0.3s linear;
 }  
+
+/* footer code */
+
 footer{
     width: 100%;
     background-color:var(--main-bg) ;
@@ -231,6 +238,7 @@ footer p{
     height: 100px;
 }
 
+/* responsive code */
 
 @media(max-width:768px){
     .main_header_left{
@@ -240,7 +248,7 @@ footer p{
     .main_header_right{
         height: auto;
         margin-top: 3rem ;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .tempform{
         width: auto;
